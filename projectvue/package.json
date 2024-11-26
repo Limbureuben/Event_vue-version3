@@ -1,0 +1,47 @@
+{
+  "name": "projectvue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@mdi/font": "^7.4.47",
+    "@vue/apollo-composable": "^4.2.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.4",
+    "flowbite": "^2.5.2",
+    "flowbite-vue": "^0.1.6",
+    "graphql": "^16.9.0",
+    "jquery": "^3.7.1",
+    "jwt-decode": "^3.1.2",
+    "qrcode": "^1.5.4",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuetify": "^3.7.0-beta.1"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.2.5",
+    "sass-embedded": "^1.78.0",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.3.1"
+  }
+}
